@@ -14,6 +14,7 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
+    base: "./",
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [
@@ -107,7 +108,7 @@ export default defineUserConfig({
       options: {
         appId: "7Rd5srHP9piH7CCJ62sKuAW2-gzGzoHsz",
         appKey: "9CZeENYCYA02EouZB0WWy3D1",
-        placeholder: '填写邮箱可以收到回复提醒哦！',
+        placeholder: "填写邮箱可以收到回复提醒哦！",
         // verify: true, // 验证码服务
         // notify: true,
         // recordIP: true,
