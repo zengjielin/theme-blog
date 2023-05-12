@@ -5,6 +5,7 @@ import recoTheme from "vuepress-theme-reco"
 export default defineUserConfig({
   title: "vuepress-theme-reco",
   description: "Just playing around",
+  base: "/theme-blog/",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
@@ -14,7 +15,6 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
-    base: "./",
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [
