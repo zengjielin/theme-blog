@@ -1,10 +1,10 @@
 ---
 home: true
 modules:
-  - BannerBrand
+  # - BannerBrand
   - Blog
-  - MdContent
-  - Footer
+  # - MdContent
+  # - Footer
 bannerBrand:
   bgImage: "/bg.svg"
   title: vuepress-reco
@@ -24,7 +24,10 @@ bannerBrand:
       }
 blog:
   socialLinks:
-    - { icon: "LogoGithub", link: "https://github.com/recoluan" }
+    - { icon: "Blog", link: "https://www.zengjielin.cn" }
+    - { icon: "LogoGithub", link: "https://github.com/zengjielin" }
+    - { icon: "LogoDiscord", link: "https://www.cnblogs.com/zengjielin/" }
+    - { icon: "LogoSnapchat", link: "https://gitee.com/zengjielin" }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
