@@ -5,7 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "霖哥的爬坑日志",
   description: "代码创造未来，编程改变世界。",
-  base: "/blog/",
+  base: "/theme-blog/",
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     [
