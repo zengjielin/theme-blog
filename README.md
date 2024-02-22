@@ -38,7 +38,7 @@ actionLink: /views/other/about
 #   cyberSecurityLink: "公安备案地址4"
 #   startYear: 2018
 ---
-
+<!-- 
 ## 快速开始
 
 **npx**
@@ -62,4 +62,4 @@ theme-cli init
 # 初始化，并选择 2.x
 yarn global add @vuepress-reco/theme-cli@1.0.7
 theme-cli init
-```
+``` -->
